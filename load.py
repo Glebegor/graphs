@@ -1,7 +1,10 @@
 import pandas as pd
 import csv
 
-DATASET_PATH = './datasets/toprankedanime.csv'
+ANIME_DATASET_PATH = './datasets/toprankedanime.csv'
+FAMILIES_DATASET_PATH = './datasets/GaltonFamilies.csv'
+AIR_DATASET_PATH = './datasets/air_quality_health_impact_data.csv'
+BMI_DATASET_PATH = './datasets/bmi.csv'
 
 def getData(path: str) -> pd.DataFrame:
     '''
